@@ -3,6 +3,7 @@ body {
     display: flex;
     flex-direction: column;
     width: 100vw;
+    height: 100vh;
 }
 
 .header-container {
@@ -37,4 +38,11 @@ a {
     height: 50px;
     background-color: #1f2937;
     color: #e5e7eb;
+}
+
+.content-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-grow: 1;
 }
