@@ -9,7 +9,7 @@ body {
 .header-container {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     background-color: #1f2937;
     color: #f9faf8;
@@ -44,5 +44,29 @@ a {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    flex-grow: 1;
+    flex: 1;
+}
+
+.container1,
+.container2,
+.container3,
+.container4 {
+    border: 1px solid black;
+    display: flex;
+    height: 100%;
+}
+
+.container1 {
+    justify-content: space-between;
+}
+
+.container1-left,
+.container1-right {
+    width: 50vw;
+}
+
+.container1-left {
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
 }
