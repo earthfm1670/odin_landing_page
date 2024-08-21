@@ -98,3 +98,32 @@ a {
     color: #f9faf8;
     width: 100px;
 }
+
+.container2 {
+    display: flex;
+    flex-direction: column;
+}
+
+.container2-header,
+.container2-info {
+    border: 1px solid black;
+}
+
+.container2-info {
+    display: flex;
+    justify-content: space-between;
+}
+
+.info-picture,
+.info-detail {
+    border: 1px solid black;
+}
+
+.info-picture {
+    height: 100px;
+    width: 120px;
+}
+
+.info-detail {
+    width: 120px;
+}
